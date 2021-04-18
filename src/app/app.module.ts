@@ -9,12 +9,12 @@ import {DropdownModule} from 'primeng/dropdown';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './component/header/header.component';
 import {MenuModule} from 'primeng/menu';
 import { MenubarModule } from 'primeng/menubar';
-import { HomeComponent } from './home/home.component';
-import { ListComponent } from './list/list.component';
-import { SublistComponent } from './sublist/sublist.component';
+import { HomeComponent } from './component/home/home.component';
+import { ListComponent } from './component/list/list.component';
+import { SublistComponent } from './component/sublist/sublist.component';
 
 
 @NgModule({

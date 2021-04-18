@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, OnChanges } from '@angular/core';
 import { MenuItem } from 'primeng/api';
-import { DataService } from '../shared/service/data.service';
+import { DataService } from '../../shared/service/data.service';
 import { Router } from '@angular/router';
 
 @Component({
