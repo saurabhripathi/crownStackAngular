@@ -1,0 +1,12 @@
+<div class="container">
+        <ng-container *ngFor = "let x of subCategoryArray">
+                <div class= "card">
+                        <img alt = "Image not available" [src]="x.imgPath" />
+                        <button pButton type="button" [label]="x.name" ></button>
+                    </div>
+    
+        </ng-container>
+       
+    
+    </div>
+    

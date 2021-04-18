@@ -1,0 +1,11 @@
+<div class="container">
+    <ng-container *ngFor = "let x of categoryArray">
+            <div class= "card">
+                    <img [src]="x.imgPath" />
+                    <button pButton type="button" (click) = "categoryClickedFn(x.name)" [label]="x.name" ></button>
+                </div>
+
+    </ng-container>
+   
+
+</div>
